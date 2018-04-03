@@ -1,0 +1,252 @@
+
+/* BASE */
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.6em;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'ff-din-round-web', sans-serif;
+  letter-spacing: 0.025em;
+  color: #f55;
+  font-weight: normal;
+  width: auto;
+  line-height: 1.7em;
+}
+
+p, li {
+  color: #888;
+}
+
+a {
+  color: #f55;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* HEADER */
+
+body > header {
+  margin-bottom: 2em;
+  background: #f55;
+  color: white;
+}
+
+body > header div {
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 50px 50px 25px 50px;
+}
+
+body > header h1 {
+  margin: 0;
+  color: white;
+  line-height: 1.2em;
+  max-width: 440px;
+}
+body > header p {
+  color: #fcc;
+  font-weight: 400;
+  max-width: 510px;
+}
+body > header a {
+  color: white;
+  font-weight: 500;
+}
+
+
+/* MAIN */
+
+main {
+  padding: 0px 50px 50px 50px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+section {
+  position: relative;
+  padding-top: 2em;
+  margin-bottom: 4em;
+  clear: both;
+}
+
+section + section {
+  border-top: 1px dotted #ccc;
+}
+
+section h3 {
+  font-size: 1.75em;
+  line-height: 1.25em;
+  margin-top: 0;
+  margin-bottom: 0.75em;
+  max-width: 75%;
+}
+
+section article {
+  overflow: hidden;
+  margin: 0;
+}
+
+section header .expand-collapse-controls {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+}
+section header .expand-collapse-controls a {
+  display: inline-block;
+  background-color: white;
+  width: 50px;
+  height: 30px;
+  border-radius: 6px;
+  border: 2px solid #f55;
+  font-weight: 400;
+  text-decoration: none;
+  color: #f55;
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+}
+section header .expand-collapse-controls a:hover {
+  background-color: #f55;
+  color: white;
+}
+section header .expand-collapse-controls a.expand {
+  display: none;
+}
+
+section.collapsed {
+  margin-bottom: 0;
+}
+section.collapsed article {
+  height: 0px;
+}
+section.collapsed header .expand-collapse-controls a.expand {
+  display: inline-block;
+}
+section.collapsed header .expand-collapse-controls a.collapse {
+  display: none;
+}
+
+section div.icon {
+  margin: -0.35em 0.65em 0.5em -0.2em;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-align: center;
+  display: inline-block;
+  background: #f55;
+  color: white;
+  width: 1.85em;
+  height: 1.85em;
+  border-radius: 1.85em;
+  float: left;
+  vertical-align: top;
+}
+
+section h4 {
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 2em 0 0.25em 0;
+}
+
+section h4 + p {
+  margin-top: 0;
+}
+
+section p {
+  font-size: 1.35em;
+  line-height: 1.45em;
+  color: #666;
+}
+
+section code {
+  display: inline;
+  color: #f55;
+  background: #fee;
+  padding: 1px 4px;
+  font-family: Menlo, Monaco, "Courier New", Courier, monospace;
+  font-size: 0.85em;
+}
+
+section.coming-soon h3,
+section.coming-soon p,
+section.coming-soon li,
+section.coming-soon h4 {
+  color: #ccc;
+}
+section.coming-soon div.icon {
+  background-color: #ccc;
+}
+section.coming-soon header .expand-collapse-controls a {
+  border-color: #ccc;
+  color: #ccc;
+}
+section.coming-soon header .expand-collapse-controls a:hover {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: white;
+}
+
+/* LISTS */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li:before {
+  content: "\2013\a0\a0\a0";
+}
+
+ul > li > ul > li {
+  margin-left: 25px;
+}
+
+
+/* DOWNLOADS */
+
+ul.downloads > li:before {
+  content: none;
+}
+
+ul.downloads {
+  margin-top: 0.5em;
+}
+
+ul.downloads > li {
+  display: inline-block;
+  margin-right: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+ul.downloads > li a {
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 6px;
+  border: 2px solid #f55;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+ul.downloads > li a:hover {
+  background-color: #f55;
+  color: #fff;
+}
+
+ul.downloads > li a[href=""] {
+  pointer-events: none;
+  border-style: dotted;
+  color: #bbb;
+  border-color: #bbb;
+}
