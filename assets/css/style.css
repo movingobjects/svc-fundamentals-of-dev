@@ -139,7 +139,7 @@ section.collapsed header .expand-collapse-controls a.collapse {
 }
 
 section div.icon {
-  margin: -0.35em 0.65em 0.5em -0.2em;
+  margin: -0.35em 0.65em 0 -0.2em;
   font-size: 1.5em;
   line-height: 2em;
   text-align: center;
@@ -183,18 +183,18 @@ section.coming-soon h3,
 section.coming-soon p,
 section.coming-soon li,
 section.coming-soon h4 {
-  color: #ccc;
+  color: #aaa;
 }
 section.coming-soon div.icon {
-  background-color: #ccc;
+  background-color: #aaa;
 }
 section.coming-soon header .expand-collapse-controls a {
-  border-color: #ccc;
-  color: #ccc;
+  border-color: #aaa;
+  color: #aaa;
 }
 section.coming-soon header .expand-collapse-controls a:hover {
-  background-color: #ccc;
-  border-color: #ccc;
+  background-color: #aaa;
+  border-color: #aaa;
   color: white;
 }
 
