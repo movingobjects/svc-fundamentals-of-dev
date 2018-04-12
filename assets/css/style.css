@@ -12,6 +12,11 @@ body {
   letter-spacing: 0.01em;
 }
 
+::selection {
+  color: #fcc;
+  background: #f55;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'ff-din-round-web', sans-serif;
   letter-spacing: 0.025em;
