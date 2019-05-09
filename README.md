@@ -1,48 +1,47 @@
-# HTML, CSS, & Fundamentals of Development
+# Intro to HTML & CSS
 
-An introductory course to web development taught by [Scott Thiessen](http://sccottt.com) for the [School of Visual Concepts](http://svcseattle.com) in Seattle, WA.
+Fundamentals of web development taught by [Scott Thiessen](http://movingobjects.io) for the [School of Visual Concepts](http://svcseattle.com) in Seattle, WA.
 
-[Course website](http://movingobjects.github.io/svc-fundamentals-of-dev)
+[Course website](http://movingobjects.github.io/svc-intro-to-html-css)
 
 
-### Week 1: Intro to HTML
-- Overview of Class Objectives
+### Week 1: HTML Fundamentals
+- What Can You Do With HTML & CSS?
 - Web Basics & Terminology
 - Using a Code Editor
 - What is Markup?
-- HTML Syntax: Elements and Attributes
+- HTML Syntax: Elements & Attributes
 - Anatomy of an HTML Page
 - Managing Your Files
 
-### Week 2: Intro to CSS
+### Week 2: CSS Fundamentals
 - What is CSS?
-- CSS Syntax: Selectors, Properties, and Values
-- Controlling Typography, Color, Sizing, Spacing, and More with CSS
+- CSS Syntax: Selectors, Properties, & Values
+- Typography, Color, Sizing, Spacing, & more with CSS
 - Using Web Fonts
-- Using the Web Inspector & Browser Developer Tools
-- Domains, Hosting, & Uploading to the Web via FTP
-- Version control and code sharing: GitHub & CodePen
+- The Web Inspector & Browser Developer Tools
+- Domains, Hosting, & Uploading to the web via FTP
 
-### Week 3: More Control with CSS
+### Week 3: CSS Next Steps
 - Building Website Navigation
 - IDs & Classes
 - Advanced CSS Selectors
-- Centering Your Website
-- Structural HTML Elements (div, span)
-- Semantic HTML Elements (section, header, footer)
+- Structural & Semantic HTML Elements
+- Layout Fundamentals
 
-### Week 4: From Design to Code
+### Week 4: Layout & Positioning
 - CSS Box Model
-- Block vs Inline HTML Elements
-- CSS Positioning
-- Coding Based on a Design File from Photoshop, Illustrator, or Sketch
-- Handoffs & Communication with UX and UI Designers
+- Block vs Inline Elements
+- Floats & Positioning
+- Flexbox
+- Coding Based on a Design
 
-### Week 5: Putting It All Together
-- CSS Rollovers & Transitions
-- Embedding Audio and Video
-- Preview of more advanced topics
-    - Responsive Design with Media Queries
-    - Content Management Systems and Templating
+### Week 5: Going Further
+- Transitions and Effects
+- Embedding Audio & Video
+- Preview of Further Web Topics
+    - Responsive Design & Media Queries
     - JavaScript
-- Resources and next steps for continued learning
+    - Content Management Systems
+    - Web Frameworks & Libraries
+- Paths Ahead: Apps, Games, & Artwork
