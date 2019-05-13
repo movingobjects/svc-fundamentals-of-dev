@@ -20,7 +20,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 18px;
   line-height: 1.6em;
   letter-spacing: 0.01em;
 }
@@ -55,32 +55,28 @@ a:hover {
 /* HEADER */
 
 body > header {
-  margin-bottom: 2em;
+  margin-bottom: 50px;
   background: #f55;
   color: white;
+  padding: 50px;
 }
 
 body > header div {
   margin: 0 auto;
   max-width: 800px;
-  padding: 50px;
-  display: flex;
 }
 
 body > header h1 {
   margin: 0;
   color: white;
-  font-size: 2.2em;
-  line-height: 1.2em;
-  padding-right: 0.7em;
-  margin-right: 0.7em;
-  border-right: 1px solid #fcc;
-  min-width: 6em;
+  font-size: 40px;
+  line-height: 1.5em;
 }
 body > header p {
   color: #fcc;
   font-weight: 400;
-  max-width: 26em;
+  max-width: 475px;
+  margin: 0;
 }
 body > header a {
   color: white;
@@ -98,17 +94,17 @@ main {
 
 section {
   position: relative;
-  padding-top: 1.5em;
-  margin-bottom: 4em;
+  padding-top: 25px;
+  margin-bottom: 50px;
   clear: both;
 }
 
 section + section {
-  border-top: 1px dotted #ccc;
+  border-top: 1px solid #ccc;
 }
 
-section h3 {
-  font-size: 1.5em;
+section h2 {
+  font-size: 25px;
   line-height: 1.25em;
   margin-top: 0;
   margin-bottom: 0;
@@ -116,7 +112,6 @@ section h3 {
 }
 
 section article {
-  overflow: hidden;
   margin: 0;
 }
 
@@ -148,10 +143,11 @@ section header .expand-collapse-controls a.expand {
 }
 
 section.collapsed {
-  margin-bottom: 0.75em;
+  padding-bottom: 15px;
+  margin-bottom: 0;
 }
 section.collapsed article {
-  height: 0px;
+  display: none;
 }
 section.collapsed header .expand-collapse-controls a.expand {
   display: inline-block;
@@ -161,7 +157,7 @@ section.collapsed header .expand-collapse-controls a.collapse {
 }
 
 section div.icon {
-  margin: -0.35em 0.65em 0 -0.2em;
+  margin: -8px 13px 0 -4px;
   font-size: 1.25em;
   line-height: 2em;
   text-align: center;
@@ -175,7 +171,7 @@ section div.icon {
   vertical-align: top;
 }
 
-section h4 {
+section h3 {
   color: #333;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -183,8 +179,13 @@ section h4 {
   font-size: 1.1em;
 }
 
-section h4 + p {
+section h3 + p,
+section h3 + h4 {
   margin-top: 0;
+}
+
+section h4 {
+  margin-bottom: 5px;
 }
 
 section p {
@@ -202,7 +203,7 @@ section code {
   font-size: 0.85em;
 }
 
-section.unavailable h3,
+section.unavailable h2,
 section.unavailable p,
 section.unavailable li,
 section.unavailable h4 {
@@ -218,21 +219,15 @@ section.unavailable header .expand-collapse-controls {
 /* LISTS */
 
 ul {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 25px;
 }
-
-ul > li:before {
-  content: "\2013\a0\a0\a0";
-}
-
-ul > li > ul > li {
-  margin-left: 25px;
-}
-
 
 /* DOWNLOADS */
+
+ul.downloads {
+  padding-left: 5px;
+}
 
 ul.downloads > li:before {
   content: none;
@@ -260,11 +255,4 @@ ul.downloads > li a {
 ul.downloads > li a:hover {
   background-color: #f55;
   color: #fff;
-}
-
-ul.downloads > li a[href=""] {
-  pointer-events: none;
-  border-style: dotted;
-  color: #bbb;
-  border-color: #bbb;
 }
