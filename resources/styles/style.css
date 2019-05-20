@@ -20,7 +20,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6em;
   letter-spacing: 0.01em;
 }
@@ -69,13 +69,13 @@ body > header div {
 body > header h1 {
   margin: 0;
   color: white;
-  font-size: 40px;
+  font-size: 45px;
   line-height: 1.5em;
 }
 body > header p {
   color: #fcc;
   font-weight: 400;
-  max-width: 475px;
+  max-width: 525px;
   margin: 0;
 }
 body > header a {
@@ -104,7 +104,7 @@ section + section {
 }
 
 section h2 {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 1.25em;
   margin-top: 0;
   margin-bottom: 0;
